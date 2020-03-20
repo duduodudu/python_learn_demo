@@ -1,0 +1,24 @@
+QLabel {
+    font-size: 30px;
+    color: yellow;
+    background-color: azure;
+}
+
+/*根据ObjectName*/
+QLabel#obj {
+    color: red;
+
+}
+
+/* property []*/
+QLabel#warming[level='notice'] {
+    background: aqua;
+}
+
+RedWidget {
+    background-color: red;
+}
+
+GreenWidget {
+    background-color: green;
+}

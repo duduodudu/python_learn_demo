@@ -1,0 +1,64 @@
+/* 通配符选择器 */
+* {
+    background-color: aliceblue;
+}
+
+/* 类型选择器 直接写类名 包含子类 */
+QWidget {
+    background-color: antiquewhite;
+}
+
+/* 类选择器 . 不包含子类 */
+.QPushButton {
+    background-color: antiquewhite;
+}
+
+/*id 选择器 # objectName */
+QLabel#label1 {
+    background-color: red;
+}
+
+#idName {
+    color: yellow;
+}
+
+/*属性选择器 [] setProperty */
+.QLabel[notice_level] {
+    border: 3px solid red;
+}
+
+.QLabel[notice_level='error'] {
+    border: 3px solid red;
+}
+
+.QLabel[notice_level='warming'] {
+    border: 3px solid yellow;
+}
+
+/* 伪状态 :状态值 */
+QLabel#label1:hover {
+    background-color: yellow;
+}
+
+QPushButton:pressed {
+    border: 5px solid red;
+}
+
+/* 子控件选择器 */
+.QCheckBox::indicator {
+    width: 40px;
+    height: 40px;
+}
+
+.QCheckBox::indicator:unchecked {
+    image: url('images/demo.png');
+}
+
+
+.QCheckBox::indicator:checked {
+    image: url('images/demo1.png');
+}
+
+.QCheckBox::indicator:indeterminate {
+    image: url('images/ic_mouse.png.png');
+}

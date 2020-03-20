@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="tab">
+    <file>images/demo.gif</file>
+    <file>images/demo.png</file>
+    <file>images/demo1.png</file>
+    <file>images/ic_mouse.png</file>
+  </qresource>
+</RCC>
